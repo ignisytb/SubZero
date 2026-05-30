@@ -25,6 +25,20 @@ No libraries. No shortcuts. Every renderer, input handler, and game loop is writ
 
 ---
 
+## Architecture
+
+| System | Role |
+|---|---|
+| `window` | Win32 window creation and message loop |
+| `renderer` | DIB framebuffer, pixel drawing, BitBlt to screen |
+| `gameloop` | Fixed timestep with QueryPerformanceCounter |
+| `input` | Keyboard and mouse state |
+| `tilemap` | 2D grid world and camera/viewport |
+| `entity` | Game object management |
+| `simulation` | Mechanical systems — gears, belts, power flow |
+
+---
+
 ## Building
 
 ```bash
