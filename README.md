@@ -20,7 +20,7 @@ Built with Godot. Systems are implemented in C++ with clean OOP structure — ea
 
 - **Language:** C++
 - **Platform:** Windows
-- **Game Engine:** Godot
+- **Game Engine:** Godot Extension
 
 ---
 
