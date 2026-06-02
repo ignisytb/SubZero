@@ -1,13 +1,16 @@
-# Build output
-build/
-bin/
-obj/
+# Godot
+.godot/
+*.translation
 
-# Compiled artifacts (fallback for anything outside build dirs)
-*.exe
+# GDExtension build artifacts
+build/
 *.o
+*.obj
 *.a
+*.lib
 *.dll
+*.so
+*.dylib
 
 # MinGW crash dumps
 *.stackdump

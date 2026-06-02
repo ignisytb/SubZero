@@ -1,18 +1,18 @@
 # SubZero
 
-A sandbox game built from scratch in C++ — no external libraries, Win32 only.
+A quarter-view RPG built with Godot, focused on novel mechanical systems.
 
-SubZero is two things at once: an experiment in writing a game engine by hand, and a game about building machines. Simple mechanical principles combine into complex systems. Small rules produce large behavior.
+Simple principles combine into complex systems. Small rules produce large behavior.
 
 ---
 
 ## Design Philosophy
 
 **On the game side:**
-Inspired by factory games and construction sandboxes (Minecraft, Create mod). The focus is on mechanical systems — gears, logic, automation — where understanding how something works *is* the gameplay. Emergent complexity from simple, composable parts.
+Inspired by factory games and construction sandboxes (Minecraft, Create mod). The focus is on mechanical systems where understanding how something works *is* the gameplay. Emergent complexity from simple, composable parts. Quarter-view format for player freedom and spatial readability.
 
 **On the engine side:**
-No libraries. No shortcuts. Every renderer, input handler, and game loop is written by hand using only Win32. The goal is to understand every layer of the stack completely.
+Built with Godot. Systems are implemented in C++ with clean OOP structure — each system is self-contained and composable.
 
 ---
 
@@ -20,8 +20,7 @@ No libraries. No shortcuts. Every renderer, input handler, and game loop is writ
 
 - **Language:** C++
 - **Platform:** Windows
-- **Compiler:** MinGW (g++)
-- **Dependencies:** Win32 only
+- **Game Engine:** Godot
 
 ---
 
@@ -29,23 +28,11 @@ No libraries. No shortcuts. Every renderer, input handler, and game loop is writ
 
 | System | Role |
 |---|---|
-| `window` | Win32 window creation and message loop |
-| `renderer` | DIB framebuffer, pixel drawing, BitBlt to screen |
-| `gameloop` | Fixed timestep with QueryPerformanceCounter |
-| `input` | Keyboard and mouse state |
-| `tilemap` | 2D grid world and camera/viewport |
-| `entity` | Game object management |
-| `simulation` | Mechanical systems — gears, belts, power flow |
-
----
-
-## Building
-
-```bash
-g++ src/main.cpp -o SubZero -mwindows
-```
-
-> Build system is not finalized yet. Instructions will be updated as the project matures.
+| `player` | Movement, interaction, input handling |
+| `world` | Scene and level management |
+| `camera` | Quarter-view camera behavior |
+| `mechanics` | Core unique systems and rules |
+| `ui` | HUD, menus, feedback |
 
 ---
 
