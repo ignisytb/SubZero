@@ -7,7 +7,7 @@ Branch Strategy
   - integration branch for all ongoing development
 - Feature branch naming convention
   - `<type>/<tech-stack-name>`
-  - types: `feat`, `fix`, `refactor`, `docs`, `chore`, `test`
+  - types: `feat`, `fix`, `refactor`, `docs`, `chore`, `test`, `proto`
   - ex) `feat/renderer`, `fix/input-handler`, `docs/contributing`
 
 ---
@@ -26,7 +26,7 @@ Commit Messages Convention
 ---
 
 - Format: `<type>(<scope>): <description>`
-- Types: `feat`, `fix`, `refactor`, `docs`, `chore`, `test`
+- Types: `feat`, `fix`, `refactor`, `docs`, `chore`, `test`, `proto`
 - Examples:
   - `feat(renderer): add pixel buffer drawing`
   - `fix(input): resolve key repeat on held keys`

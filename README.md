@@ -1,6 +1,6 @@
 # SubZero
 
-A quarter-view RPG built with Godot, focused on novel mechanical systems.
+A quarter-view 3D RPG built with Godot, focused on novel mechanical systems.
 
 Simple principles combine into complex systems. Small rules produce large behavior.
 
@@ -26,19 +26,30 @@ Built with Godot. Systems are implemented in C++ with clean OOP structure — ea
 
 ## Architecture
 
+| System | Directory | Role |
+|---|---|---|
+| **core** | `core/` | Main Mechanism Implementation |
+| **Game** |  | Display and utilize the game system |
+| **Prototypes** | `proto/` | Test for core systems |
+
+**Core** (`core/`)
 | System | Role |
 |---|---|
-| `player` | Movement, interaction, input handling |
-| `world` | Scene and level management |
-| `camera` | Quarter-view camera behavior |
-| `mechanics` | Core unique systems and rules |
-| `ui` | HUD, menus, feedback |
+| `resonance` | Resonance state, interaction |
+| `combat` | Player Status (`ATK`, `DEF`, ...), Damage Influence |
+
+**Game** (`game/`, ?)
+| System | Role |
+|---|---|
+| `Player` | Inventory, Movement, Skill |
+| `Equipment` |
+| `UI`, `Camera`, ... | after DoDot tutorial |
 
 ---
 
 ## Status
 
-Early experimental stage. Architecture and scope are still being defined.
+Core system (Reasonance) prototype building for validation
 
 ---
 
