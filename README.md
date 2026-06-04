@@ -49,7 +49,7 @@ Built with Godot. Systems are implemented in C++ with clean OOP structure — ea
 
 ## Status
 
-Core system (Reasonance) prototype building for validation
+Core system (Resonance) prototype building for validation
 
 ---
 
