@@ -3,6 +3,7 @@
 *.translation
 
 # GDExtension build artifacts
+godot-cpp/*
 build/
 *.o
 *.obj
