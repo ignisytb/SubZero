@@ -12,3 +12,8 @@ labels: feature
 
 ## Proposed Approach
 <!-- How should it work? (optional) -->
+
+- branch convention: 
+- classes: 
+
+- 

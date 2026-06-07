@@ -1,6 +1,6 @@
 # SubZero
 
-A quarter-view 3D RPG built with Godot, focused on novel mechanical systems.
+A quarter-view 2D(upgrade into 3D later) RPG built with Godot, focused on novel mechanical systems.
 
 Simple principles combine into complex systems. Small rules produce large behavior.
 
@@ -49,7 +49,7 @@ Built with Godot. Systems are implemented in C++ with clean OOP structure — ea
 
 ## Status
 
-Core system (Reasonance) prototype building for validation
+Core system (Resonance) prototype building for validation
 
 ---
 
