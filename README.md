@@ -1,6 +1,6 @@
 # SubZero
 
-A quarter-view 3D RPG built with Godot, focused on novel mechanical systems.
+A quarter-view 2D(upgrade into 3D later) RPG built with Godot, focused on novel mechanical systems.
 
 Simple principles combine into complex systems. Small rules produce large behavior.
 
